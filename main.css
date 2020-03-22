@@ -79,8 +79,8 @@ blockquote{
 }
 main p{padding-bottom: 0.5em;}
 p1{padding-right: 2em; padding-left: 2em;}
-u1{padding-bottom: 0.25em; padding-left: 1.25em;}
-l1{padding-bottom: 0.35em;}
+ul{padding-bottom: 0.25em; padding-left: 1.25em;}
+li{padding-bottom: 0.35em; padding-left: 2em;}
 footer{
     border-top: 3px solid #931420;
     background-color: #931420;
