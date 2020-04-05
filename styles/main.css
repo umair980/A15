@@ -51,6 +51,62 @@ header h3 {
     padding-bottom: .25em;
 
 }
+
+
+
+#nav_menu_1 u1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+#nav_menu_1 u1 li {
+    display: inline;
+    float: left;
+
+}
+
+#nav_menu_1 u1 li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu_1 u1 li a.current {
+    color: yellow;
+}
+
+#nav_menu_1 u1 ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu_1 u1 ul li {
+    float: none;
+    position: relative;
+}
+
+#nav_menu_1 u1 li:hover > ul{
+    display: block;
+    background-color: #800000;
+    color: white;
+}
+#nav_menu_1 > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
 section {
     width: 525px;
     float: right;
@@ -152,8 +208,8 @@ blockquote{
 }
 main p{padding-bottom: 0.5em;}
 p1{padding-right: 2em; padding-left: 2em;}
-ul{padding-bottom: 0.25em; padding-left: 1.25em;}
-li{padding-bottom: 0.35em; padding-left: 2em;}
+main ul{padding-bottom: 0.25em; padding-left: 1.25em;}
+main li{padding-bottom: 0.35em; padding-left: 2em; list-style-type: circle;}
 
 footer{
     clear: both;
